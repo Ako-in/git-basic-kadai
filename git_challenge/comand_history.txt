@@ -1,0 +1,73 @@
+
+\f0\fs24 \cf0 atsuko@192 css % cd '/Users/atsuko/git_challenge'\
+atsuko@192 git_challenge % git init\
+Reinitialized existing Git repository in /Users/atsuko/git_challenge/.git/\
+atsuko@192 git_challenge % git add .\
+atsuko@192 git_challenge % git status\
+On branch main\
+\
+No commits yet\
+\
+Changes to be committed:\
+  (use "git rm --cached <file>..." to unstage)\
+        new file:   hello_world.txt\
+\
+atsuko@192 git_challenge % git commit -m"hello_worl\
+d.txt\uc0\u12434 \u36861 \u21152 "\
+[main (root-commit) 2ea6894] hello_world.txt\uc0\u12434 \u36861 \u21152 \
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 hello_world.txt\
+atsuko@192 git_challenge % git status\
+On branch main\
+nothing to commit, working tree clean\
+atsuko@192 git_challenge % git diff --staged\
+atsuko@192 git_challenge % git commit -m"\uc0\u26085 \u26412 \u35486 \u35379 \u12434 \
+\uc0\u36861 \u35352 "                  \
+On branch main\
+Changes not staged for commit:\
+  (use "git add <file>..." to update what will be committed)\
+  (use "git restore <file>..." to discard changes in working directory)\
+        modified:   hello_world.txt\
+\
+no changes added to commit (use "git add" and/or "git commit -a")\
+atsuko@192 git_challenge % git log\
+commit 2ea6894c859f446d03d4871839ca248d310044b6 (HEAD -> main)\
+Author: Ako-in <sinba.805i@gmail.com>\
+Date:   Wed Jan 31 17:30:31 2024 +0700\
+\
+    hello_world.txt\uc0\u12434 \u36861 \u21152 \
+atsuko@192 git_challenge % git add .\
+atsuko@192 git_challenge % git status\
+On branch main\
+Changes to be committed:\
+  (use "git restore --staged <file>..." to unstage)\
+        modified:   hello_world.txt\
+\
+atsuko@192 git_challenge % git commit -m"\uc0\u26085 \u26412 \u35486 \u35379 \u12434 \u36861 \u35352 "\
+[main 1b1ef68] \uc0\u26085 \u26412 \u35486 \u35379 \u12434 \u36861 \u35352 \
+ 1 file changed, 2 insertions(+), 1 deletion(-)\
+atsuko@192 git_challenge % git log\
+commit 1b1ef68d9f40be1eb9c73cb8e863b7e7d63ec8ad (HEAD -> main)\
+Author: Ako-in <sinba.805i@gmail.com>\
+Date:   Wed Jan 31 17:35:18 2024 +0700\
+\
+    \uc0\u26085 \u26412 \u35486 \u35379 \u12434 \u36861 \u35352 \
+\
+commit 2ea6894c859f446d03d4871839ca248d310044b6\
+Author: Ako-in <sinba.805i@gmail.com>\
+Date:   Wed Jan 31 17:30:31 2024 +0700\
+\
+    hello_world.txt\uc0\u12434 \u36861 \u21152 \
+atsuko@192 git_challenge % git diff --staged \
+atsuko@192 git_challenge % git log\
+commit 1b1ef68d9f40be1eb9c73cb8e863b7e7d63ec8ad (HEAD -> main)\
+Author: Ako-in <sinba.805i@gmail.com>\
+Date:   Wed Jan 31 17:35:18 2024 +0700\
+\
+    \uc0\u26085 \u26412 \u35486 \u35379 \u12434 \u36861 \u35352 \
+\
+commit 2ea6894c859f446d03d4871839ca248d310044b6\
+Author: Ako-in <sinba.805i@gmail.com>\
+Date:   Wed Jan 31 17:30:31 2024 +0700\
+\
+    hello_world.txt\uc0\u12434 \u36861 \u21152 }
